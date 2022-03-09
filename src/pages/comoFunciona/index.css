@@ -1,0 +1,270 @@
+.configGeral{
+    background-color: #7758EF;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -5em;
+}
+.comoFuncionarContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4em;
+}
+.divComoFunciona{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7em;
+    padding-top: 3em;
+    margin-bottom: -8em;
+    
+}
+.subTittle{
+    margin: auto;
+    text-align: center;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 1);
+    width: 600;
+    font-family: 'Roboto';
+
+}
+.complemento{
+    margin-top: 1em;
+    font-size: 19px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Roboto';
+
+}
+
+.TitutloComoFunciona{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-family: 'Roboto';
+}
+
+.pConfig{
+    font-size: 18px;
+    margin-top: 1em;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Roboto';
+
+}
+
+.rowInfos{
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    padding-left: 5em;
+    
+}
+.tittle{
+    font-size: 30px;
+    margin-top: 2em;
+    font-family: 'Roboto';
+
+}
+.configInfos{
+    width: 400px;
+}
+.numberInfo{
+    display: none;
+}
+.rowFuncoes{
+    padding: 6em;
+    margin-top: -8em;
+}
+.DivParaVoce{
+    border-top: solid 2px;
+}
+
+.divFuncionalidades{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 3em;
+}
+.subTittleFunc{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    text-align: center;
+}
+.funcionalidades{
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Roboto';
+    color: rgba(255, 255, 255, 1);
+}
+.informacoes{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-family: 'Roboto';
+
+}
+.number{
+    color: rgba(93, 36, 173, 1);
+    font-size: 40px;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-weight: bold;
+    font-family: 'Roboto';
+
+}
+.info{
+    
+    margin-left: 1em;
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: rgba(255, 255, 255, 1);
+}
+.DivParaClientes{
+    border-left: solid 2px ;
+    border-top: solid 2px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+    .configGeral{
+        padding: 0;
+        margin: 0;
+    }
+    .divComoFunciona{
+        padding: 2em;
+        margin: 0;
+    }
+    .rowInfos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0  2em 0 2em;
+    }
+    .rowFuncoes{
+        padding:  0  2em 0 2em;
+        margin: 0;   
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .DivParaClientes{
+        border-left: none;
+    }
+    .divFuncionalidades{
+        padding: 2em 0em 2em 0em;
+
+        margin: 0;
+
+    }
+    .TitutloComoFunciona{
+        font-size: 27px;
+        font-weight: bold;
+        font-family: 'Raleway';
+        
+        
+    }
+    .pConfig{
+        font-size: 15px;
+        color: rgba(255, 255, 255, 1);
+        margin-bottom: 0.5em;
+        margin-left: 1em;
+        width: 100%;
+    }
+    .numberInfo{
+        color: rgba(93, 36, 173, 0.8);
+        font-size: 30px;
+        font-weight: bold;
+        display: flex;
+        margin-right: 0.2em;
+        margin-bottom: auto;
+        margin-top: auto; 
+
+    }
+    .number{
+        font-size: 40px;
+    }
+   
+    .configInfos{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 0;
+    }
+    .tittle{
+        font-size: 25px;
+        margin-top: 1.5em;
+        margin-bottom: 0.5em;
+        width: 100%;
+        margin-left: 2em;
+    }
+   
+    .complemento{
+        text-align: start;
+        font-size: 18px;
+    }
+    .subTittle{
+        text-align: start;
+        font-size: 18px;
+    }
+ 
+    .subTittleFunc{
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Raleway';
+        text-align: none;
+        
+    }
+
+    .informacoes{
+        padding: 0;
+        margin: 0;
+        margin-top: 1em;
+    }
+    .info{
+        font-size: 15px;
+
+    }
+    
+    .funcionalidades{
+        font-size: 18px;
+        margin-bottom: 2em;
+    }
+    
+    .number{
+        color: rgba(93, 36, 173, 0.8);
+        font-size: 30px;
+        font-weight: bold;
+        display: flex;
+        margin-right: 0.2em;
+        margin-bottom: auto;
+        margin-top: auto; 
+    }
+}
+

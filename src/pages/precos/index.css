@@ -1,0 +1,373 @@
+.divPrecos{
+    background-color: black;
+      display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-left: 1em;
+ }
+ 
+ .colPrecos{
+     
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 2em;
+ }
+ 
+ .precosTitulo{
+     color: #7758EF;
+     margin-top: 1em;
+     font-size: 55px;
+     font-weight: bold;
+     letter-spacing: 0.1em;
+     font-family: 'Raleway', sans-serif;
+ 
+ }
+ 
+ /* CARDS */
+ .rowCards{
+     margin-left: auto;
+     margin-right: auto;
+     padding-bottom: 1em;
+     padding-top: 2em;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ .divCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 1em;
+   
+ }
+ .colCards{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: row;
+ }
+ 
+ .cardIniciante{
+     margin-top: 2em;
+     margin-bottom: 2em;
+     height: 250px;
+     width: 250px;
+     border: solid 3px white;
+     border-radius: 1em;
+    
+ 
+ }
+ 
+ .cardIntermediario{
+     margin-top: 2em;
+     margin-bottom: 2em;
+     height: 250px;
+     width: 250px;
+     border: solid 3px white;
+     border-radius: 1em;
+    
+     
+ }
+ .cardProfissional{
+     margin-top: 2em;
+     margin-bottom: 2em;
+     height: 250px;
+     width: 250px;
+     box-shadow: 0 0em 0.2em 0.2em #7758EF;
+     border: solid white 3px;
+     border-radius: 1em;
+     background-color: black;
+     z-index:1;
+     
+ }
+ 
+ .cardHeader{
+     margin: 0;
+     padding: 0;
+     background-color:black;
+     font-size: 17.5px;
+     color: #7758EF;
+     text-transform: uppercase;
+     letter-spacing: 5px;
+     font-weight: bold;
+     font-family: 'Raleway', sans-serif;
+     border-bottom: solid white 2px;
+     height: 40px;
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     border-radius: 1em 1em 0em 0em;
+  }
+ 
+  .cardBody{
+     background-color: black;    
+     border-radius: 1em 1em 1em 1em;
+
+ }
+ 
+ .cardTittleValor{
+     text-align: center;
+     color: white;
+     font-weight: bold;
+     font-size: 20px;
+     
+ }
+ .spamValor{
+     font-size: 70px;
+     margin-left: 0.2em;
+ }
+ 
+ .cardTextMensal{
+     text-align: center;
+     color: white;
+     margin-top: -1em;
+     font-size: 20px;
+     font-weight: 400;
+     font-family: 'Raleway', sans-serif;
+ }
+ .cardTextUsuarios{
+     text-align: center;
+     color: #7758EF;
+     font-size: 20px;
+     font-weight: 400;
+     font-family: 'Raleway', sans-serif;
+ }
+ .divMelhorvalor{
+     margin-top: auto;
+     margin-bottom: auto;
+ }
+ .imgMelhorValor{
+     border-radius: 1em 1em 0 0px;
+     transform:  rotate(90deg);
+     width: 150PX;
+     margin-left: -3.5EM;
+     z-index:1000; 
+ }
+ /* FIM CARDS */
+ 
+ 
+ .subtitle{
+  
+     margin-top: 2em;
+     margin-bottom: 2em;
+     font-size: 20px;
+     color: rgba(255, 255, 255, 1);
+     text-align: center;
+     font-weight: 300;
+ }
+ .groupList{
+     border-radius: 2em;
+     height: 150px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin: 3em;
+     width: 850px;
+     margin-left: auto;
+     margin-right: auto;
+     
+ }
+ .robos{
+     font-size: 25px;
+     font-weight: 600;
+    
+    
+ }
+ .hrList{
+     color: white;
+     width: 100%;
+     margin-top: 0.5em;
+     margin-bottom: 1em;
+ }
+ 
+ .consulta{
+     font-size: 20px;
+     font-weight: 500;
+    
+ }
+ 
+ 
+ 
+ @media (max-width: 1080px) {
+     .rowCards{
+         padding: 1em;
+ 
+     }
+     .divCards{
+         padding: 0;
+         
+     }
+    
+     .cardIniciante{
+         height: 250px;
+         width: 250px;
+         padding: 0;
+         margin: 0;
+     }   
+     .cardIntermediario{
+         height: 250px;
+         width: 250px;
+         margin: 0;
+         padding: 0;
+ 
+     }
+     .cardProfissional{
+         height: 250px;
+         width: 250px;
+         margin: 0;
+         padding: 0;
+     }
+ 
+     .spamValor{
+         font-size: 65px;
+         margin-left: 0.2em;
+     }
+ }
+ 
+ 
+ @media (max-width: 992px) {
+     .colCards{display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+     }
+     .cardIniciante{
+         height: 220px;
+         width: 220px;
+         margin: 0;
+         padding: 0;
+     }
+     .cardIntermediario{
+         margin: 0;
+         padding: 0;
+         height: 220px;
+         width: 220px;
+     }
+     .cardProfissional{
+         height: 220px;
+         width: 220px;
+         margin: 0;
+         margin-left: 5EM;
+         padding: 0;
+         
+     }
+   
+     .cardHeader{
+         background-color:black;
+         font-size: 13px;
+         
+     }
+     .spamValor{
+         font-size: 50px;
+         margin-left: 0.2em;
+     }
+     .cardTextMensal{
+         font-size: 15px;
+     }
+     
+     .cardTextUsuarios{
+         font-size: 16px;
+         margin: 0;
+         padding: 0;
+     }
+     .groupList{
+         width: 90%;
+         height: 120px;
+         margin: 0;
+         margin-left: auto;
+         margin-right: auto;
+         padding: 1em;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin-top: 1em;
+     }
+     .robos{
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+        margin-top: auto;
+        margin-bottom: auto;
+     }
+     .hrList{
+         border: solid white 2px;
+         margin: 0;
+         padding: 0;
+         margin-top: auto;
+         margin-bottom: auto;
+         width: 100%;
+         color: white;
+         margin-top: 1em;
+         margin-bottom: 1em;
+     }
+     .consulta{
+         font-size: 15px;
+         margin: 0;
+         padding: 0;
+         margin-top: auto;
+         margin-bottom: auto;
+     }
+    
+   
+ }
+ 
+ @media (max-width: 768px) {
+ 
+     .rowCards{
+         padding: 0em;
+ 
+     }
+     
+     .divCards{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+     }
+     .precosTitulo{
+         font-size: 35px;
+         margin-bottom: 1em;
+     }
+     .cardIniciante{
+         margin: 0;
+         padding: 0;
+         height: 220px;
+         width: 220px;
+     }
+     .cardIntermediario{
+         margin-left: 0;
+         margin-top: 2em;
+         padding: 0;
+         height: 220px;
+         width: 220px;
+      
+     }
+     .cardProfissional{
+         margin-left: 0;
+         margin-top: 2em;
+         padding: 0;
+         height: 220px;
+         width: 220px;
+         z-index:1;
+     }
+     .divMelhorvalor{
+         margin: 0;
+     }
+     
+     .imgMelhorValor{
+         transform:  rotate(360deg);
+         margin-top: -0.2em;
+         margin-left: auto;
+         margin-right: auto;
+         z-index:1000;   
+         border-radius: 10px;
+      }
+      .subtitle{
+          font-size: 18px;
+      }
+    
+ }

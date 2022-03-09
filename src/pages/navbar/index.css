@@ -1,0 +1,34 @@
+.nav{
+    margin-left: auto;
+
+}
+.font{
+    color: rgba(255, 255, 255, 1);
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 200;
+    font-family: 'Roboto';
+    
+    
+}
+
+.logoo{
+    margin-left: -3em;
+    width: 350px;
+   
+    
+}
+
+.font:hover{
+    color: #7758EF;
+}
+
+@media (max-width: 760px) {
+    .logoo{
+       width: 200px;
+       margin-left: 0.3em;
+    }
+    
+}

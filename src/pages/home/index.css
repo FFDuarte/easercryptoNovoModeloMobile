@@ -1,0 +1,523 @@
+
+/* HOME */
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7758EF;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4em;
+}
+
+.containerHome{
+    padding: 2em;
+
+}
+.rowHome{
+    padding: 4em;
+    padding-left: 5em;
+}
+.homeTitulo{
+    font-size: 50px;
+    padding-top: 1em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    color: #7758EF ;
+    margin-top: -0.5em;
+    margin-left: 1em;
+    font-family: 'Roboto';
+}
+.homeSubtitulo{
+    font-size: 20px;
+    font-weight: 300;
+    width: 400px;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    font-family: 'Roboto';
+    color: rgba(255, 255, 255, 1);
+}
+.easerCrypto{
+    width: 100%;
+}
+
+
+/* FIM HOME */
+
+
+
+/* estrategias */
+.estrategias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7758EF;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3em;
+}
+.estrategiasRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+    padding-left: 8em;
+   
+    
+}
+.estrategiasTitulo{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: -0.05em;
+    font-family: 'Roboto';
+
+   
+}
+
+.estrategiasText{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 300;
+    margin-bottom: 1em;
+    font-family: 'Roboto';
+
+ 
+}
+
+/* FIM ESTRATEGIAS */
+
+
+
+/* Button configs */
+.flexButton{
+    padding-top: 1em;
+}
+.button{
+    width: 250px;
+    height: 60px;
+    border: solid white 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 0.5em;
+    text-decoration: none;
+    color: white;
+   
+}
+.button:hover{
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.buttonText{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.8em;
+    font-size: 18PX;
+    font-family: 'Roboto';
+}
+.icon{
+   
+    border-left: solid 3px white;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 0.5em;
+}
+.iconConfig{
+    
+    margin-left: 0.4em;
+    font-size: 20px;
+    
+}
+/* FIM Button configs */
+
+
+
+/* EXCHANGE CONFIGS  */
+.exchanges{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    margin-right: -6em;
+}
+.titulo{
+    margin-top: 2em;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    font-family: 'Roboto';
+
+}
+.imagesLogo{
+    margin-top: 2em;
+    width: 240px;
+    height: 80px;
+    border-radius: 1em ;
+    box-shadow: 0 0.5em 0.5em black;
+    margin-bottom: 1em;
+    
+}
+
+/* FIM  EXCHANGE CONFIGS  */
+
+
+
+/* plataforama */
+
+.plataforama{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../Assets/background.png');
+    background-size: cover ;
+    background-repeat: no-repeat;
+    color: white;
+}
+.colPlataforma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.plataformeTitle{
+    margin-top: 1em;
+    font-size: 50px;
+    font-family: 'Roboto';
+
+}
+
+.plataformeTitleSpam{
+    font-size: 50px;
+    color: #7758EF;
+    margin-bottom: 1em;
+    margin-top: -0.3em;
+    font-family: 'Roboto';
+
+}
+.plataformaSubTittle{
+    font-size: 20px;
+    font-family: 'Roboto';
+
+}
+.plataformaSubTittleSpam{
+    color: #7758EF;
+    font-family: 'Roboto';
+
+}
+.plataformaButton{
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+/* FIM PLATAFORMA  */
+
+
+
+.negrito{
+    color: white;
+}
+.negritoBlack{
+    color: black;
+}
+
+@media (max-width: 960px) {
+
+    /* HOME */
+    .rowHome{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+        padding: 1em 0 0 1em;
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+    
+    .homeTitulo{
+        font-size: 35px;
+        padding: 0;
+        margin: 0;      
+    }
+    .homeSubtitulo{
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+        margin-bottom: -0.5em;
+        width: 250px;
+        margin-top: 1em;
+        
+    }
+    .easerCrypto{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+
+    /* ESTRATEGIAS*/
+        
+    .estrategias{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+    }
+    .estrategiasRow{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+        padding: 1em 1EM 1EM 1em;
+    }
+   
+    .estrategiasTitulo{
+        font-size: 35px;
+        font-weight: bold;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .estrategiasText{
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.7);
+        font-weight: 300;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .exchanges{
+        margin: 0;
+        padding: 0;
+    }
+    .imagesLogo{
+        margin-top: 1em;
+        width: 220px;
+        border-radius: 1em ;
+        box-shadow: 0 0.5em 0.5em black;
+       
+        
+    }
+    
+
+    .button{
+        width: 200px;
+        height: 50PX;
+        border: solid white 3px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-radius: 0.5em;
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+        font-weight: bold;
+        
+        
+    }
+    .buttonText{
+        margin-top: auto;
+        margin-bottom: 1em;
+        font-size: 13px;
+
+    }
+    .flexButton{
+        margin: 0;
+        padding: 1em 0 3EM 0;
+    }
+    .icon{
+        height: 100%;
+        margin-right: 0em;
+        font-size: 13PX;
+        
+    }
+    .iconConfig{
+        margin-top: -0.2em;
+        font-size: 13PX;
+
+    
+    }
+}
+
+
+
+@media (max-width: 760px) {
+    .home{
+        padding: 0;
+        margin: 0;
+    }
+    .containerHome{
+        padding: 0em;
+        margin: 0;
+        
+    }
+    .rowHome{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+        padding: 2em;
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+    
+    .homeTitulo{
+        font-size: 20px;
+        padding: 0;
+        margin: 0;      
+    }
+    .homeSubtitulo{
+        font-size: 13px;
+        margin: 0;
+        padding: 0;
+        margin-bottom: -0.5em;
+        width: 150px;
+        margin-top: 1em;
+        
+    }
+    .easerCrypto{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+
+
+    .estrategias{
+        margin: 0;
+        padding: 0;
+    }
+    .estrategiasRow{
+        margin: 0;
+        padding: 2em 0em 2em 2em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .colEstrategia{
+        margin: 0;
+        padding: 0;
+    }
+    .estrategiasTitulo{
+        width: 100%;       
+        font-size: 20px;
+        margin-bottom: 1em;
+        
+    }
+    .estrategiasText{
+        width: 100%;
+        font-size: 13px;
+        margin-bottom: 1em;
+    }
+
+    .exchanges{
+        width: 100%;
+        
+      
+    }
+    .imagesLogo{
+        width: 100%;
+        height: auto;
+       
+        
+    }
+    .titulo{
+        margin-top: 2em;
+        color: white;
+        font-size: 20px;
+        letter-spacing: 0;
+        width: 100%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+
+    .button{
+        width: 180px;
+        height: auto;
+        border: solid white 3px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-radius: 0.5em;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        
+    }
+    .buttonText{
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 12px;
+
+    }
+
+
+
+    .icon{
+        height: 100%;
+        margin-right: -0.5em;
+        font-size: 10px;
+        
+    }
+    .iconConfig{
+        margin-top: 0.3em;
+        font-size: 10px;
+        margin-left: -0.5em;
+        
+    }
+
+
+    .plataforama{
+        padding: 1.5em;
+        margin: 0;
+    }
+    .colPlataforma{
+        margin: 0em;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .plataformeTitle{
+        font-size: 24px;
+        letter-spacing: 0.1em;
+    }
+    .plataformeTitleSpam{
+        font-size: 24px;
+        letter-spacing: 0.1em;
+        margin-top: 0.1em;
+        text-align: center;
+        
+    }
+    .plataformaSubTittle{
+        font-size: 13px;
+        margin: 1em;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+}
+
