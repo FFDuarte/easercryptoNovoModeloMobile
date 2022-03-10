@@ -39,7 +39,9 @@ export default function Home(){
                             <p className="estrategiasText">Nós cuidamos da administração das contas, realizamos cobrança de mensalidade e dos lucros.  </p>
                             <p className="estrategiasText">Defina a sua estratégia de mensalidades, participação do lucro e configure diretamente na ferramenta.  </p>
                             <p className="estrategiasText"> Você foca em suas estratégias, enquanto nos focamos no melhor atendimento dos clientes, escalabilidade, suporte e segurança.</p>
-                            
+                            <div className='flexButton'>
+                                <a  href="#" className="button"><p className="buttonText"> COMECE AGORA </p> <div className="icon "> <FiArrowRight size={50} className="iconConfig " /> </div> </a>
+                        </div>
                         </Col>
                         <Col className="exchanges">
                             <h1 className="titulo"> <b className="negrito"> EXCHANGES: </b> </h1>
@@ -47,9 +49,7 @@ export default function Home(){
                             <a href="#binanceFutures"> <img  className='imagesLogo' src={binancefutures}></img></a>
                             <a href="#bybit"><img className='imagesLogo' src={bybit}></img> </a>
                         </Col>
-                        <div className='flexButton'>
-                                <a  href="#" className="button"><p className="buttonText"> COMECE AGORA </p> <div className="icon "> <FiArrowRight size={50} className="iconConfig " /> </div> </a>
-                        </div>
+                        
                     </Row>
                 </Container>
             </div>  
